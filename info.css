@@ -1,0 +1,9 @@
+#hi {
+    font-style: italic;
+    text-align: auto right;
+}   
+body {
+    background-image: linear-gradient(to bottom right,red,skyblue,black);
+    text-align: center;
+    font-size: 25px;
+}
