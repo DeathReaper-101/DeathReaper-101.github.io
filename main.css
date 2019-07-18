@@ -1,0 +1,115 @@
+.in {
+    background-color:silver;
+    margin: 0;
+    text-align: center;
+}
+h1 {
+    color:indigo;
+}
+p {
+    color:darkblue;
+    font-size: 18px;
+}
+hr {
+    border-top: 2px solid black;
+}
+.hi {
+    margin: 50px;
+}
+
+.navbar {
+    background-color: black;
+    overflow: hidden;
+}
+h1 {
+    padding: 14px 16px;
+}
+.navbar a {
+    text-decoration: none;
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 14px 18px;
+    color: aliceblue;
+    font-size: 17px;
+}
+.navbar a:hover {
+    background-color: white;
+    color: skyblue;
+}
+.navbar a.active {
+    opacity: 50%;
+}
+#hype {
+    color: darkblue;
+    background-color: limegreen; 
+}
+.forresume {
+            background-color: skyblue;
+}
+ul {
+    font-size:20px;
+}
+.relevant {
+    text-decoration: underline;
+}
+.no {
+    text-decoration: none;
+    text-decoration: overline;
+    text-align: center;
+}
+.hey {
+    font-size: 22px
+}
+.maybe {
+    font-size:18px;
+    color: black;
+}
+h3 {
+    color: black;
+}
+.hello {
+    background-color: floralwhite;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container > div {
+    flex: 1;
+}
+
+.container > div:nth-child(2n) {
+    flex-basis: 200px;
+}
+#hi {
+    text-align: auto right;
+    font-family: 'merriweather', serif;
+    font-size: 40px;
+    color: white;
+}   
+#hello {
+    background-image: linear-gradient(to left, grey, darkblue, grey);
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+}
+.nonnav a {
+    text-decoration: none;
+    padding: 14px 16px;
+    color: ghostwhite;
+    font-size: 18px;
+}
+.nonnav {
+    background-image: linear-gradient(to bottom right, black, skyblue, black);
+}
+.hey {
+    color: black;
+}
